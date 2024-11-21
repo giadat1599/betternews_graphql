@@ -1,0 +1,1 @@
+## Betternews Graphql API
