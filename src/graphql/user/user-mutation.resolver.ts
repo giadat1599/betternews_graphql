@@ -7,8 +7,7 @@ export class UserMutationResolver {
   @Mutation(() => User)
   updateUser(@Args({ name: "name" }) name: string): User {
     return {
-      id: 1,
-      fullname: name,
+      id: "1",
       username: name,
     };
   }
